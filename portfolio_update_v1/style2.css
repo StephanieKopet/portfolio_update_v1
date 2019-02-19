@@ -1,0 +1,121 @@
+h1 {
+  font-size: 40pt;
+  font-family: serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 24pt;
+}
+
+h3 {
+  font-size: 20pt;
+}
+
+body {
+  text-align: center;
+  background:
+    linear-gradient(green, transparent),
+    linear-gradient(to top left, red, transparent),
+    linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  font-size: 20pt;
+}
+
+p {
+  font-size: 20pt;
+  display: inline-block;
+  text-align: left;
+}
+
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav .name {
+  display: block;
+  margin-right: auto;
+  color: white;
+}
+
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+
+.nav a {
+  transition: all .5s;
+}
+
+.nav a:hover {
+  color: white
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+}
+
+.card {
+  margin: 30px 400px 30px 450px;
+  padding: 20px 40px 40px;
+  max-width: 800px;
+  text-align: center;
+  background: #ffffcc;
+  border: 10px solid black;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+}
+
+a.linkedin {
+  background-image: url(images/linkedin.svg);
+}
+
+a.github {
+  background-image: url(images/github.svg);
+}
+
+a.social:hover {
+  opacity: 1;
+}
+
+.clearfix {
+  clear: both;
+}
